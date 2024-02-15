@@ -5,6 +5,7 @@ paises.sort(reverse=True)
 print(paises)
 paises.sort(reverse=False)
 print(paises)
+print(paises.nuevo)
 #Modificar una lista
 
 #Mostrar los valores de una lista
