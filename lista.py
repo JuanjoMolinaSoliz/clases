@@ -78,3 +78,13 @@ print(motocicletas)
 
 motocicletas.reverse()
 print(motocicletas)
+
+# index, count ->
+# index: retorna la posicion de la primera vez que encuentra el elemento
+# count: cuenta el numero de veces que un numero esta oresente en una lista
+
+pos_susuki = motocicletas.index('Susuki')
+print(pos_susuki)
+
+num_repeticiones = motocicletas.count('Susuki')
+print(num_repeticiones)
