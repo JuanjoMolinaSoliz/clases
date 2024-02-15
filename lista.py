@@ -1,9 +1,10 @@
 #Crear una lista
 paises = ["Bolivia", "Peru", "Chile", "Ecuador", "argentina", "brazil"]
 print(paises)
-print(paises.sort(reverse=True))
+paises.sort(reverse=True)
 print(paises)
-print(paises.sort(reverse=False))
+paises.sort(reverse=False)
+print(paises)
 #Modificar una lista
 
 #Mostrar los valores de una lista
