@@ -50,3 +50,31 @@ print(paises)
 eliminado = paises.pop(2)
 print(f"eliminado:{eliminado}")
 print(paises)
+
+#eliminar un valor utilizando la funcion "remove"
+#remove elimina por valor 
+
+print(paises)
+paises.remove('Alemania')
+print(paises)
+
+copy_paises = paises
+print(paises)
+print(copy_paises)
+paises.remove('Francia')
+print(paises)
+print(copy_paises)
+
+copy_motos = motocicletas.copy()
+print(copy_motos)
+motocicletas.remove('Kawasaki')
+print(motocicletas)
+print(copy_motos)
+
+#eliminar valores con 'delete'
+
+del motocicletas[0]
+print(motocicletas)
+
+motocicletas.reverse()
+print(motocicletas)
